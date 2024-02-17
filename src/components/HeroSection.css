@@ -15,7 +15,7 @@
   }
   
   .text {
-    width: 50%; /* Adjust as needed */
+    width: 50%; 
   }
   
   .text h1 {
@@ -35,7 +35,7 @@
   }
   
   .image-container {
-    width: 50%; /* Adjust as needed */
+    width: 50%; 
   }
   
   .image {
@@ -62,17 +62,17 @@
 
   @media screen and (min-width: 768px) {
     .content {
-      flex-direction: row; /* Revert to row layout on larger screens */
+      flex-direction: row; /* revert to row layout on larger screens */
       justify-content: space-between;
     }
   
     .text {
-      width: 50%; /* Revert to original width for text on larger screens */
-      text-align: left; /* Align text to the left on larger screens */
+      width: 50%; /* revert to original width for text on larger screens */
+      text-align: left; /* align text to the left on larger screens */
     }
   
     .image-container {
-      width: 50%; /* Revert to original width for image container on larger screens */
-      text-align: right; /* Align image to the right on larger screens */
+      width: 50%; /* revert to original width for image container on larger screens */
+      text-align: right; /* align image to the right on larger screens */
     }
   }

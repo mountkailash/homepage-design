@@ -60,7 +60,7 @@ h2 {
 }
 
 .card:hover {
-    background-color: #42526D; /* Change background color on hover */
+    background-color: #42526D; /* change background color on hover */
     color: #fff; /* Change text color on hover */
 }
 
