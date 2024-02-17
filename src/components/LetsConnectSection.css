@@ -1,0 +1,91 @@
+.lets-connect-section {
+    padding: 80px 0;
+    background-color: #F8F9FE;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #383A3D;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.name,
+.form-group.email,
+.form-group.number {
+    width: calc(33.33% - 20px); 
+}
+
+.form-group:nth-child(4) {
+    width: calc(100% - 10px);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #383A3D;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DFE2E6;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 120px;
+}
+
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group input[type="tel"]:hover,
+.form-group textarea:hover {
+    border: 2px solid #DFE2E6; /* change border color on hover */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus {
+    border: 2px solid #DFE2E6; /* change border color when focused */
+    outline: none; /* remove default focus outline */
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 40px;
+    background-color: #42526d;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+button[type="submit"]:hover {
+    background-color: #111928;
+}

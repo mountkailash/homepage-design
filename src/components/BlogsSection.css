@@ -1,0 +1,95 @@
+.blogs-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #42526d;
+}
+
+.blog-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #42526D; /* horizontal offset, vertical offset, blur radius, color */
+    width: calc(33.333% - 30px); /* adjust card width */
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.blog-card:hover {
+    background-color: #42526d;
+  }
+  
+  .blog-card:hover h3,
+  .blog-card:hover p {
+    color: #fff;
+  }
+
+  .blog-card:hover .read-more-btn {
+    background-color: #fff; /* change button background color on card hover */
+    color: #09233f; /* change button text color on card hover */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+.blog-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #383A3D;
+}
+
+.blog-card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #9899A4;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    padding: 15px 40px;
+    background-color: #42526d;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;  /* align button in the center */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .blog-card {
+        width: calc(50% - 30px);
+    }
+}
